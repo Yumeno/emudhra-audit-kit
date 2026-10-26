@@ -1,0 +1,12 @@
+# Normalize text files to LF in the repository
+* text=auto eol=lf
+
+# Shell scripts must stay LF (executed in WSL/Linux)
+*.sh   text eol=lf
+
+# PowerShell / Python / Markdown
+*.ps1  text eol=lf
+*.psm1 text eol=lf
+*.psd1 text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
